@@ -16,15 +16,16 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+let name, age, drink;
 
 // Eingabe des Namens über eine Prompt-Anforderung
-var name = prompt("Geben Sie Ihren Namen ein:");
+name = prompt("Geben Sie Ihren Namen ein:");
 
 // Eingabe des Alters über eine Prompt-Anforderung
-var age = parseInt(prompt("Geben Sie Ihr Alter ein:"));
+age = parseInt(prompt("Geben Sie Ihr Alter ein:"));
 
 // Ausgabe der Getränkeauswahl abhängig vom Alter
-var drink;
+drink;
 
 if (age >= 0 && age <= 5) {
   drink = "Milch";
