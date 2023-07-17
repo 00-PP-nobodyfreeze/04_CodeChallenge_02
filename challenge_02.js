@@ -37,7 +37,7 @@ Alter 13-17 // Cola
 // } else if (age >= 18) {
 //   drink = "Wein";
 // } else {
-//   drink = "unbekannt";
+//   drink = "Tee";
 // }
 
 // // Ausgabe des Satzes mit dem Namen und dem entsprechenden Getränk
@@ -64,8 +64,11 @@ switch (true) {
   case (age >= 13 && age <= 17):
     drink = "Cola";
     break;
-  default:
+  case (age >= 18 && age <= 30):
     drink = "Wein";
+    break;
+  default:
+    drink = "Tee";
     break;
 }
 
